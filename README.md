@@ -1,5 +1,5 @@
 # LOLA Processing
-This codebase is used for downloading and processing LOLA RDRs to get spacecraft clock, altitude, longitude, latitude, and detector ID for non-flagged measurements, as well as the spacecraft clock, longitude, latitude, and detector ID for all measurements regardless of flag.
+This codebase is used for downloading and processing LOLA RDRs to get .gzip files containing spacecraft clock, altitude, longitude, latitude, and detector ID. Altitude values are not saved for flagged measurements. 
 
 rdr2tab is from the LOLA RDR Software provided by the LOLA Science Team.
 
